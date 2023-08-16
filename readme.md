@@ -13,5 +13,5 @@ Criei esse jogo inspirado no clássico jogo do navegador do dinossauro que pula 
 ![Alt text](/img/image.png)
 
 
-
+#### versão 1.0 beta
 ![Alt text](/img/example.gif)
