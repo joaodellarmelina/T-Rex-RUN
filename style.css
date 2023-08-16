@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 850px;
+    height: 480px;
+    border: none;
+    margin: 0 auto;
+
+    position: relative;
+    overflow: hidden;
+    border-bottom: 4px solid #e8d092;
+    background: rgb(255, 255, 255);
+    background-image: url("img/bg-speed1.gif");
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    background-size: contain;
+    background-position: center;
+}
+
+#play {
+    width: 100px;
+    height: 100px;
+
+    position: absolute;
+
+
+}
+
+.cacto {
+    width: 120px;
+    position: absolute;
+
+    right: -150px;
+    bottom: 0;
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.goCacto {
+    animation: 2.5s cactoMovimente infinite linear;
+}
+
+.dino {
+    position: absolute;
+    bottom: 0;
+}
+
+.jump {
+    animation: dinoMovi 800ms linear;
+
+}
+
+@keyframes cactoMovimente {
+    from {
+        right: -150px;
+    }
+
+    to {
+        right: 100%;
+    }
+}
+
+@keyframes dinoMovi {
+    0% {
+        bottom: 0;
+    }
+
+
+    10% {
+        bottom: 80px;
+    }
+
+    20% {
+        bottom: 120px;
+    }
+
+    30% {
+        bottom: 220px;
+    }
+
+    40% {
+        bottom: 220px;
+    }
+
+    50% {
+        bottom: 200px;
+    }
+
+    60% {
+        bottom: 180px;
+    }
+
+    70% {
+        botton: 100px;
+    }
+
+    80% {
+        botton: 80px;
+    }
+
+    90% {
+        botton: 50px;
+    }
+
+    100% {
+        bottom: 0px;
+    }
+
+}
